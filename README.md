@@ -1,3 +1,3 @@
-# Pansy (Zed Theme)
+# Pansy
 
 Pansy Theme for Zed
