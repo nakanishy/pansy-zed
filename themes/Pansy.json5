@@ -1,4 +1,5 @@
 {
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
   "name": "Pansy",
   "author": "nakanishy",
   "themes": [
@@ -10,131 +11,92 @@
         "foreground": "#C1C4F5",
         "elevated_surface.background": "#19234D",
         "element.background": "#19234D",
-
         "border": "#5C5F91",
         "border.focused": "#F0D49F",
         "border.selected": "#F0D49F",
-
         "text": "#C1C4F5",
         "text.muted": "#ACAED6",
         "text.placeholder": "#6B6E9E",
         "text.disabled": "#6B6E9E",
         "text.accent": "#F0D49F",
-
         "icon": "#C1C4F5",
         "icon.muted": "#ACAED6",
         "icon.placeholder": "#6B6E9E",
         "icon.disabled": "#6B6E9E",
         "icon.accent": "#F0D49F",
-
-        // editor
         "editor.background": "#2C2F5E",
         "editor.foreground": "#C1C4F5",
-
-        // gutter
         "editor.gutter.background": "#2C2F5E",
         "editor.gutter.foreground": "#6B6E9E",
-
-        // active line
         "editor.active_line.background": "#373967",
         "editor.highlighted_line.background": "#353944",
-
-        // line number
         "editor.line_number": "#6B6E9E",
         "editor.active_line_number": "#C1C4F5",
         "editor.hover_line_number": "#F0D49F",
-
         "editor.invisible": "#6B6E9E",
         "editor.wrap_guide": "#3D4071",
         "editor.active_wrap_guide": "#3D4071",
         "editor.document_highlight.read_background": "#FFFFFF28",
         "editor.document_highlight.write_background": "#FFFFFF28",
-
-        // sidebar
         "panel.background": "#19234D",
         "panel.foreground": "#C1C4F5",
-
         "status_bar.background": "#19234D",
         "title_bar.background": "#19234D",
         "toolbar.background": "#2C2F5E",
-
-        // tab
         "tab_bar.background": "#19234D",
         "tab.inactive_background": "#19234D",
         "tab.active_background": "#2C2F5E",
-
-        // scrollbar
         "scrollbar.thumb.background": "#464A7C",
         "scrollbar.thumb.hover_background": "#464A7C99",
-
-        // selected background color on sidebar
         "element.selected": "#41416E",
-
         "players": [
-            {
-                "cursor": "#F0D49F",
-                "selection": "#4B4E7B"
-            },
+          {
+            "cursor": "#F0D49F",
+            "selection": "#4B4E7B"
+          }
         ],
-
-        // git
         "conflict": "#E0A2FF",
         "conflict.background": "#E0A2FF",
         "conflict.border": "#E0A2FF",
-
-        "created": "#C6EAB1",
+        "created": "#C6EAB1FF",
         "created.background": "#C6EAB1",
         "created.border": "#C6EAB1",
-
         "deleted": "#FF9BB9",
         "deleted.background": "#FF9BB9",
         "deleted.border": "#FF9BB9",
-
-        "error": "#FF9294",
+        "error": "#FFBFC1FF",
         "error.background": "#A82D4C",
         "error.border": "#FF9294",
-
         "hidden": "#6B6E9E",
         "hidden.background": "#6B6E9E",
         "hidden.border": "#6B6E9E",
-
-        "hint": "#8D90BD",
+        "hint": "#0F0F30FF",
         "hint.background": "#8D90BD",
         "hint.border": "#8D90BD",
-
         "ignored": "#6B6E9E",
         "ignored.background": "#6B6E9E",
         "ignored.border": "#6B6E9E",
-
-        "info": "#FFC799",
+        "info": "#451F0CFF",
         "info.background": "#FFC799",
         "info.border": "#FFC799",
-
-        "modified": "#F0D49F",
+        "modified": "#F0D49FFF",
         "modified.background": "#F0D49F",
         "modified.border": "#F0D49F",
-
         "predictive": "#8D90BD",
         "predictive.background": "#8D90BD",
         "predictive.border": "#8D90BD",
-
         "renamed": "#DDE1B5",
         "renamed.background": "#DDE1B5",
         "renamed.border": "#DDE1B5",
-
         "success": "#A5F9A7",
         "success.background": "#A5F9A7",
         "success.border": "#A5F9A7",
-
         "unreachable": "#8D90BD",
         "unreachable.background": "#8D90BD",
         "unreachable.border": "#8D90BD",
-
-        "warning": "#F0EF9F",
+        "warning": "#1C1C0DFF",
         "warning.background": "#F0EF9F",
         "warning.border": "#F0EF9F",
-
-        // terminal
         "terminal.background": "#19234D",
         "terminal.foreground": "#C1C4F5",
         "terminal.bright_foreground": "#C1C4F5",
@@ -163,7 +125,6 @@
         "terminal.ansi.white": "#C5C7E4",
         "terminal.ansi.bright_white": "#ffffff",
         "terminal.ansi.dim_white": "#6B6E9E",
-
         "syntax": {
           "editor.foreground": {
             "color": "#C1C4F5",
@@ -197,7 +158,7 @@
           },
           "type": {
             "color": "#F0D49F",
-            "font_style": null,
+            "font_style": "italic",
             "font_weight": null
           },
           "operator": {
@@ -217,7 +178,7 @@
           },
           "comment": {
             "color": "#6B6E9E",
-            "font_style": null,
+            "font_style": "italic",
             "font_weight": null
           },
           "comment.doc": {
@@ -254,9 +215,23 @@
             "color": "#8D90BD",
             "font_style": null,
             "font_weight": null
-          },
-        }
+          }
+        },
+        "panel.focused_border": "#F0D49F",
+        "panel.overlay_hover": "#19234D",
+        "pane.focused_border": "#F0D49F",
+        "link_text.hover": "#F0D49F",
+        "ghost_element.selected": "#41416E",
+        "minimap.thumb.background": "#464A7C",
+        "minimap.thumb.hover_background": "#464A7C99",
+        "version_control.added": "#C6EAB1FF",
+        "version_control.deleted": "#FF9BB9",
+        "version_control.modified": "#F0D49FFF",
+        "version_control.renamed": "#DDE1B5",
+        "version_control.conflict": "#E0A2FF",
+        "version_control.ignored": "#6B6E9E"
       }
     }
-  ]
+  ],
+  "isUserGenerated": true
 }
