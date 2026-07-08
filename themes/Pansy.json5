@@ -167,7 +167,7 @@
             "font_weight": null
           },
           "property": {
-            "color": "#F0D49F",
+            "color": "#C1C4F5",
             "font_style": null,
             "font_weight": null
           },
@@ -183,6 +183,11 @@
           },
           "comment.doc": {
             "color": "#6B6E9E",
+            "font_style": null,
+            "font_weight": null
+          },
+          "boolean": {
+            "color": "#F09C78",
             "font_style": null,
             "font_weight": null
           },
