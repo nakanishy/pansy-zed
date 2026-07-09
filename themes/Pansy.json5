@@ -242,9 +242,8 @@
       "appearance": "dark",
       "style": {
         "background.appearance": "blurred",
-        "editor.background": "#2C2F5E18",
-        "editor.gutter.background": "#2C2F5E18",
-
+        "editor.background": "#2C2F5E09",
+        "editor.gutter.background": "#2C2F5E09",
 
         "elevated_surface.background": "#19234Dee",
 
